@@ -1,0 +1,28 @@
+span.MuiButtonBase-root-95.MuiTableSortLabel-root-444 {
+    font-size: 15px;
+    color: #676e79!important;
+    font-weight: 500;
+}
+.CardHeader-primaryCardHeader-373:not(.CardHeader-cardHeaderIcon-368){background: linear-gradient(60deg, #00aea0, #009c90)!important;box-shadow: 0 12px 20px -10px rgba(0,174,160, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0,174,160, 0.2)!important;}
+.UserManagement-cardTitleWhite-262{font-size: 20px;font-weight: 400!important;}
+.MuiTypography-root-386 {margin: 0;display: block;color: #00aea0;font-size: 18px;font-weight: 500;}
+.MuiCheckbox-colorSecondary-439.MuiCheckbox-checked-435 {
+    color: #00aea0!important;
+}
+.EnhancedTableToolbar-highlight-382 {
+    color: #00aea0!important;
+    background-color: rgba(0,174,160, 0.1)!important;
+}
+.MuiIconButton-root-255{color: #676e79!important;}
+.MuiTableCell-root-426{padding: 4px 10px!important;}
+.MuiTableCell-numeric-430{text-align: left!important;}
+.MuiTablePagination-caption-453{font-size: 14px;}
+.MuiInput-underline-229:after{border-bottom: 2px solid #00aea0!important;}
+.MuiInputBase-root-238{color: rgba(0, 0, 0, 0.5)!important;}
+.MuiInput-underline-229:hover:not(.MuiInput-disabled-228):not(.MuiInput-focused-227):not(.MuiInput-error-230):before{border-bottom: 1px solid rgba(0, 0, 0, 0.42)!important;}
+.MuiTablePagination-caption-453{font-size: 14px!important; font-weight: 400!important;}
+.MuiTablePagination-select-455{line-height: 20px!important;
+    font-size: 14px!important;
+    font-weight: 400!important;padding-right: 25px!important;}
+    .MuiTablePagination-selectIcon-456{top: 4px!important;}
+    .MuiListItem-root-84.MuiListItem-selected-94{background-color: #00aea0!important;color: #fff!important;}

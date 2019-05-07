@@ -1,0 +1,23 @@
+.search-dialog input[type="email"]{font-size: 18px;height: 50px;    padding: 0 10px; width: 100%; float: none;}
+.search-dialog .error{display:block; color: #ff0000; margin-top: 4px;}
+.search-dialog button{    border-radius: 3px;
+    background-color: rgb(32, 218, 203);
+    border: 2px rgb(32, 218, 203) solid;
+    width: 143px;
+    height: 46px;
+    font-size: 16px;
+    font-family: "Poppins";
+    color: #fff;
+    font-weight: 600;
+    -webkit-transition: all ease-in-out 0.3s;
+    -o-transition: all ease-in-out 0.3s;
+    transition: all ease-in-out 0.3s;
+    cursor: pointer;
+    margin-top: 20px;
+    line-height: 46px;
+    padding: 0px;     margin: 0 auto 10px;}
+    .search-dialog button:hover {
+        background-color: transparent;
+        border-color: rgb(32, 218, 203);
+        color: #000;
+    }

@@ -1,0 +1,19 @@
+@media only screen and (min-width : 1200px) and (max-width : 1800px){
+    .process_info_content-section{padding-left: 90px;}
+    .process_info_content-section:before{left: -80px;}
+    .process_info_content-section p{font-size: 16px;}
+    .reverse_section .process_info_content-section:before{right: -80px;}
+    .reverse_section .process_info_content-section{padding-left: 0;padding-right: 90px;}
+    .lead{font-size: 16px;line-height: 30px;}
+    .reverse_section .process-title{margin-left: -25px;}
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1300px){
+    .banner-content h1{font-size: 40px;}
+    .offerlane_work_section.section{padding: 130px 0px 160px;}
+    .process_info_content-section:before{left: -40px;}
+    .process_info_content-section{padding-left: 110px;}
+    .reverse_section .process_info_content-section{padding-right: 110px;}
+    .reverse_section .process_info_content-section:before{right: -40px;}
+}
+

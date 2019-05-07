@@ -1,0 +1,22 @@
+.Sidebar-blue-19{background-color: #00d6c3!important;}
+.Sidebar-itemText-16{font-size: 16px!important;font-weight: 400!important;padding: 0!important;}
+.CustomInput-underline-212:after{border-color:  #00d6c3!important;}
+.HeaderLinks-notifications-208{right: 3px!important;height: 18px!important;font-size: 10px!important;min-width: 18px!important;line-height: 18px!important;background: #00d6c3!important;}
+button:focus{outline: 0;}
+.HeaderLinks-pooperNav-201{top: 10px!important;left: -20px!important;}
+.HeaderLinks-dropdownItem-203:hover {
+    box-shadow: 0 12px 20px -10px rgba(0,214,195, 0.28), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(0,214,195, 0.2)!important;
+    background-color: #00d6c3!important;
+}
+.RegularButton-white-154, .RegularButton-white-154:focus, .RegularButton-white-154:hover{color: #00d6c3!important;}
+.RegularButton-button-153:focus{box-shadow: none!important;}
+.RegularButton-button-153{transition: none!important;}
+.MuiButton-label-171{    font-size: 20px;font-weight: 500;}
+.GridItem-grid-366{display: flex;}
+.Card-card-367{display: block;}
+footer ul li a:hover{color: #00d6c3!important;}
+footer ul li a{transition: 0.4s all ease-in-out;}
+.Footer-block-501{font-size: 14px!important;padding: 0px 15px!important;}
+.Footer-right-503{padding: 0!important;}
+.Footer-footer-504{float: left;width: 100%;padding: 15px 0px;}
+.Footer-a-506{color: #00d6c3!important;font-weight: 500;}

@@ -1,0 +1,18 @@
+.ajax-loader{display: none;}
+.main-container{position: relative;}
+.lodaer-section {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 1;
+}
+.MuiCircularProgress-colorPrimary-217{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+    z-index: 99;
+}

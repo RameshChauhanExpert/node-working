@@ -1,0 +1,2 @@
+.loader-div{position: fixed; z-index: 99999; height:100%; width:100%; left:0; top:0; background-color:#000;opacity:0.5}
+.loader{position: relative;top:75%;left:50%;}

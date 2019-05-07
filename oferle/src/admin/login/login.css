@@ -1,0 +1,126 @@
+ .field-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  .field-group label,
+  .field-group input,
+  .field-group textarea {
+    display: inline-block;
+    margin: 0;
+  }
+  .field-group label {
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 16px;
+    /* @todo: #2 find a better way to do this */
+    transition: all 150ms ease-in;
+    color: #676767;
+  }
+  .field-group label.field-active {
+    -webkit-transform: translateY(-25px);
+            transform: translateY(-25px);
+    font-size: 0.9em;
+    color: #000;
+    text-shadow: 1px 0 0 #fff, -1px 0 0 #fff, 2px 0 0 #fff, -2px 0 0 #fff, 0 1px 0 #fff, 0 -1px 0 #fff, 0 2px 0 #fff, 0 -2px 0 #fff;
+  }
+  .field-group input,
+  .field-group textarea {
+    font: inherit;
+    color: inherit;
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ededed;
+    border-radius: 5px;
+  }
+  .field-group input:focus,
+  .field-group textarea:focus {
+    outline: 0;
+    border-color: #13abdb;
+    box-shadow: 0 0 8px #c0ecfa;
+  }
+  .field-group .floating-label {
+    -webkit-appearance: none !important;
+  }
+  
+  .notes {
+    font-size: 14px;
+    color: #444;
+  }
+  
+  .notes li:not(:last-child) {
+    margin-bottom: 0.75em;
+  }
+
+
+
+  :root {
+    --primary: #20dacb;
+  }
+ 
+  .login_wrapper {
+    min-height: 500px;
+    padding: 110px 0;
+    position: relative; height:100vh; width: 100%;  display: table; background:url(../../assets/img/login-bg.jpg) no-repeat; background-size:cover; background-position:bottom center;
+  }
+
+  .login_wrapper .login_card {
+    
+    box-shadow: none;
+    display: table-cell;
+    vertical-align: middle; background-color:transparent;
+  }
+  
+  .login_wrapper .login_card .login_card_content {
+    width: 420px;
+    margin: 0 auto;
+    padding: 38px 30px 35px;
+    margin: 0 auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px #e0e0e0 solid; background-color:#fff;
+    border-radius: 3px;
+    box-shadow: 5px 5px 15px #f3f3f3;
+}
+ 
+  .login_card_content{padding: 0;}
+  
+  .login_wrapper .logo {max-width: 190px;margin: 0 auto 20px;}
+  .login_card_content {padding: 0px;}
+  .login_card_content .input-conrtol {width: 100%;}
+ 
+  .login_card_content .button-primary:hover {
+    background-color: #1fdbca;
+    color: #fff;
+    box-shadow: 0px 4px 5px #01272436;
+}
+.login_card_content .button-primary {
+  color: #fff;
+  background-color: #1fdbca;
+  border: 2px #1fdbca solid;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  padding: 9px 26px;
+  font-size: 16px;
+  margin-top: 13px;
+  border-radius: 4px;
+  display: inline-block;
+}
+.label-link {
+    display: inline-block;
+    width:100%;
+    margin-top: 10px;
+}
+.label-link a{color:#333}
+
+
+.login_card_content .MuiNotchedOutline-focused-80{border-color: #20dacb}
+.login_card_content .MuiFormLabel-root-41.MuiFormLabel-focused-42{color:#20dacb}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s;
+    -webkit-text-fill-color: #333 !important;
+}

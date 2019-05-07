@@ -1,0 +1,2 @@
+.btn.btn-link{background: linear-gradient(60deg, #08b5a7, #00d6c3); box-shadow: 0 12px 20px -10px rgb(230, 230, 230), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2) !important;font-size: 14px;    font-weight: 400;}
+.btn.btn-link:hover{background: linear-gradient(30deg, #08b5a7, #00d6c3); box-shadow: 0 12px 20px -10px rgb(230, 230, 230), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2) !important;}

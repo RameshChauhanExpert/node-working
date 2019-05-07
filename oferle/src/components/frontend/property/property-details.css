@@ -1,0 +1,73 @@
+
+/* about-us-page */
+.hero-section.aboutus-banner{background:url(../../../assets/img/aboutus-banner-img.png) no-repeat;width:100%;background-size: cover;height: 396px;position: relative;float: left;}
+.banner-content{position: absolute;top:50%;left:50%;transform:translate(-50%,-50%);}
+.banner-content h1{font-size: 45px;line-height: 52px;color: #fff;font-weight: 600;border-bottom: 4px solid #fff;padding-bottom: 15px;}
+.about-offerlane-property-section{float: left;width:100%;padding: 130px 0px;height: 920px;}
+.about-offerlane-property-section .section-header{margin-top:167px;}
+.about-offerlane-property-section .content-block{position: relative;}
+.about-offerlane-property-section .content-block .description{width:86%;}
+.about-offerlane-property-section .content-block:after{content: "";width:323px;background-color:#e8fbfa;height: 507px;position: absolute;top: 68px;right: -130px;z-index:-1;}
+.about-offerlane-property-section .section-title span:after{right:auto;left: 165px;}
+.about-offerlane-property-section .images-block{    float: right;position: absolute;right: 80px;width: 757px;}
+.our-value-section{padding-top:179px;}
+.our-value-service-section {margin-top: 89px !important;}
+.services-wrapper{transition: 0.4s all ease-in-out;}
+.services-wrapper .inner-content{position: relative;float: left;width: 100%;margin:auto;}
+.services-wrapper .inner-content:before {position: absolute;content: '';background-color: #000;height: 4px;bottom: -30px;left: -70px;width: 126px;opacity: 0;visibility: hidden;transition: 0.4s all ease-in-out;}
+.services-wrapper:hover .inner-content:before{opacity: 1;visibility: visible;}
+.services-wrapper .inner-content .icon-section{background:url(../../../assets/img/aboutus-our-value-sprite-img.png) no-repeat;width:75px;height:75px;float: left;transition: 0.4s all ease-in-out;}
+.services-wrapper .inner-content .icon-section.multiper-offer{background-position: 0 0;}
+.services-wrapper .inner-content .icon-section.closing-hours{background-position: -115px 0px;}
+.services-wrapper .inner-content .icon-section.all-in-one{background-position: -219px 0;}
+.services-wrapper .inner-content .content-section{float:right;width: 288px;margin-top: 10px;padding-left: 10px;}
+.services-wrapper:hover .inner-content .content-section h4{color: #fff;}
+.services-wrapper:hover .inner-content .content-section p{color: #fff;}
+.services-wrapper{min-height: 398px;display: flex;}
+.services-wrapper:hover{background-color: #20dacb;}
+.services-wrapper:hover .inner-content .icon-section.multiper-offer{background-position: 0 -76px;}
+.services-wrapper:hover .inner-content .icon-section.closing-hours{background-position: -115px -76px;}
+.services-wrapper:hover .inner-content .icon-section.all-in-one{background-position: -219px -76px;}
+.lets-buy-section.section{height:700px;position: relative;margin-top:201px;padding: 125px 0px;}
+.lets-buy-section.section .images-block{position: absolute;right: auto;width: 678px;left: 269px;float: left;top: 52px;}
+.lets-buy-section.section:before{content: "";width:319px;background-color:#e8fbfa;height:182px;position: absolute;top:-21px;left:180px;z-index:-1;}
+.lets-buy-section.section .content-block {margin-top: 0;padding-left: 56px;}
+
+.lets-buy-section.section .content-block .section-title span:after{top:24px;right:0;}
+.our-team-section{position: relative;margin-top:20px;padding-bottom: 168px;}
+.our-team-section:after{content: "";width: 38.37vw;background-color:#e8fbfa;height: 654px;position: absolute;top: 0px;right: 0px;z-index:-1;}
+.team-detail-section .inner-section{transition: 0.4s all ease-in-out;}
+.team-detail-section .inner-section:hover {background-color: rgb(255, 255, 255);box-shadow: 0px 0px 27.44px 0.56px rgba(0, 0, 0, 0.1);}
+.team-detail-section .image-block{position: relative;display: inline-block;
+vertical-align: middle; width:100%;
+-webkit-transform: perspective(1px) translateZ(0);
+transform: perspective(1px) translateZ(0);
+transition-duration: 0.3s;}
+.team-detail-section .image-block:after{position: absolute;content: '';background-color: rgba(0, 0, 0, 0.5);top: 0;right: 0;left: 0;bottom: 0;height: 100%;width: 100%;z-index: 1;transition: 0.4s all ease-in-out;opacity: 0;visibility: hidden;-webkit-transform: scaleY(0);
+transform: scaleY(0);
+-webkit-transform-origin: 50% 0;
+transform-origin: 50% 0;
+-webkit-transition-property: transform;
+transition-property: transform;
+-webkit-transition-duration: 0.3s;
+transition-duration: 0.3s;
+-webkit-transition-timing-function: ease-out;
+transition-timing-function: ease-out;}
+.team-detail-section .inner-section:hover .image-block:after{opacity: 1;visibility: visible;    -webkit-transform: scaleY(1);
+transform: scaleY(1);}
+.team-detail-section .image-block img{position: relative;transition: 0.4s all ease-in-out; width:100%;}
+.team-detail-section .image-block a.view-btn{transition: 0.4s all ease-in-out;z-index: 2;position: absolute;bottom: 15px;left: 32%;font-size: 20px;border: 2px solid #20dacb;color: #fff;margin: 0 auto;padding:8px 38px;border-radius: 3px;transition: 0.4s all ease-in-out;visibility: hidden;opacity: 0;}
+.team-detail-section .inner-section:hover .image-block a.view-btn{visibility: visible;opacity: 1;text-decoration: none;}
+.team-detail-section  .image-block ul.social-icons{z-index: 2;position:absolute;top:0;margin:0;list-style: none;background-color: #33dbcd;padding: 16px 18px;transition: 0.4s all ease-in-out;visibility: hidden;opacity: 0;}
+.team-detail-section .inner-section:hover .image-block ul.social-icons{visibility: visible;opacity: 1;}
+ul.social-icons li{margin-bottom: 10px;}
+ul.social-icons li:last-child{margin-bottom: 0;}
+ul.social-icons li a{border: 2px solid #fff;width: 26px;height: 26px;display: block;border-radius: 50%;text-align: center;font-size: 13px;line-height: 26px;color: #fff;transition: 0.4s all ease-in-out;}
+ul.social-icons li a:hover{background-color: #fff;color: #33dbcd;}
+.team-detail-section .content-block{text-align: center;padding: 30px 24px;}
+.team-detail-section .content-block h4{font-weight: 500;    margin-bottom: 8px;}
+.team-detail-section .content-block span {color: #737373;font-size: 16px;}
+.our-team-section .section-header.text-center{text-align: left!important;}
+.team-detail-section{margin-top:76px;}
+.our-team-section p.lead.mx-xl-auto.w-75{margin-left: 0!important;width: 65%!important;}
+/* about-us-page */

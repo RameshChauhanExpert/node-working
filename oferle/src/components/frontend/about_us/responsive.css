@@ -1,0 +1,146 @@
+@media only screen and (min-width : 1200px) and (max-width : 1800px){
+.header .logo{padding-left: 0;}
+.section-title{font-size: 40px;}
+.description p{font-size: 16px;line-height: 30px;}
+.about-offerlane-property-section .images-block{width: 570px;}
+.about-offerlane-property-section .content-block:after{top: 50px;}
+.our-value-section{padding-top: 0;}
+.about-offerlane-property-section{padding-bottom: 100px; height:auto;}
+.lead{font-size: 16px;}
+.our-value-service-section.mt-md-5{margin-top: 2rem!important;}
+.lets-buy-section.section{margin-top:60px;    padding-top: 50px; height:550px;}
+.lets-buy-section.section .images-block{width: 540px;left: 120px;}
+.lets-buy-section.section:before{left:30px;}
+.lets-buy-section.section .content-block{padding-left: 30px;padding-right: 60px;padding-top: 40px;}
+.lets-buy-section.section .content-block .description{width:85%}
+.lets-buy-section.section h3.section-title{margin-right: 20px;}
+.our-team-section{margin-top: 0;}
+.our-team-section:after{width:33.6vw;}
+.our-team-section p.lead.mx-xl-auto.w-75{width: 58%!important;}
+.our-team-section{padding-bottom: 130px;}
+.banner-content h1{font-size: 40px;}
+
+.team-detail-section .image-block a.view-btn{padding:7px 35px;font-size: 18px;}
+.services-wrapper{min-height:314px}
+.team-detail-section .image-block img{height: 370px;object-fit: cover;}
+.team-detail-section .content-block{padding:20px 24px}
+
+}
+
+@media only screen and (min-width : 1200px) and (max-width : 1300px){
+.header .nav-left ul li a:after{ bottom: -38px;}
+.header .nav-right a{font-size: 18px;}
+.header .nav-left ul li a{font-size: 18px;}
+.our-team-section:after {width: 33.3vw;}
+.lets-buy-section.section .content-block{padding-left: 50px;}
+.team-detail-section .image-block a.view-btn{left: 35%;font-size: 18px;padding: 8px 30px;}
+.team-detail-section .content-block h4{font-size: 18px;}
+.services-wrapper:hover .inner-content .content-section h4{font-size: 18px;}
+.services-wrapper{height: 360px;}
+.services-wrapper .inner-content:before{    left: -60px;width: 80px;}
+.lets-buy-section.section{height: 610px;padding-bottom: 112px;}
+.our-value-section{padding-bottom: 20px;}
+.about-offerlane-property-section{height: 850px;}
+.about-offerlane-property-section .description{padding-right: 40px;}
+.about-offerlane-property-section .section-header{margin-top: 145px;}
+}
+
+@media only screen and (min-width : 992px) and (max-width : 1199px){
+.header .logo{padding-left: 0px;width: 22%;}
+.header .nav-left{padding-top: 14px;}
+.header .nav-left ul li a{font-size: 18px;}
+.header .nav-left ul li a:after{bottom: -32px;}
+.header .nav-right a{font-size: 18px;}
+.header .nav-right{padding-top: 14px;}
+.banner-content h1{font-size: 35px;}
+.section-title{font-size: 28px;}
+.about-offerlane-property-section .section-title span:after{left: 120px;top: 17px;}
+.about-offerlane-property-section{padding: 90px 0px;}
+.about-offerlane-property-section .section-header {margin-top: 100px;}
+.about-offerlane-property-section .images-block{right: 30px;width: 500px;}
+.about-offerlane-property-section .description{    padding-right: 36px;}
+.description p{font-size: 16px;line-height: 30px;}
+.about-offerlane-property-section .content-block:after{width: 220px; height: 440px; top: 45px;right: 0px;}
+.about-offerlane-property-section{height: 710px;}
+.our-value-section{padding-top: 20px;padding-bottom: 40px;}
+.description{margin-top: 0;}
+.our-value-section .lead{margin: auto;}
+.lead{font-size: 16px;line-height: 26px;}
+.services-wrapper{min-height: 370px;}
+.services-wrapper .inner-content .content-section{width: 214px;margin-top: 20px;}
+.services-wrapper:hover .inner-content .content-section h4{font-size: 18px;}
+.services-wrapper .inner-content:before{    bottom: -15px;left: -35px;width: 70px;}
+.our-value-service-section.mt-md-5{margin-top: 2.5rem!important;}
+.lets-buy-section.section{margin-top: 0;}
+.lets-buy-section.section .images-block{left: 32px;width: 465px;}
+.lets-buy-section.section:before{left: 0;}
+.lets-buy-section.section .section-header{padding-right: 81px;}
+.section-title span:after{top: 17px;}
+.lets-buy-section.section .content-block .section-title span:after {top: 17px;right: -15px;}
+.lets-buy-section.section .content-block{margin-top: 50px;}
+.lets-buy-section.section{height: 523px;padding: 125px 0px 80px;}
+.our-team-section:after{width: 32.9vw;    height: 644px;}
+.our-team-section{padding-top: 50px;    padding-bottom: 80px;}
+.team-detail-section{margin-top: 50px;}
+.team-detail-section .inner-section .image-block a.view-btn{bottom: 20px;left: 34%;font-size: 16px;padding: 6px 30px;}
+.team-detail-section .content-block h4{font-size: 18px;}
+.team-detail-section .content-block{padding: 24px;}
+}
+
+@media only screen and (min-width : 768px) and (max-width : 991px){
+.header .container-fluid{padding: 0;}
+.header .logo{ padding-left: 0px;width: 24%;}
+.header .nav-left{padding-left: 40px;padding-top: 12px;}
+.header .nav-left ul li{padding: 0 12px;}
+.header .nav-left ul li a{font-size: 16px;}
+.header .nav-right{padding-top: 12px;}
+.header .nav-right ul{padding-left: 0;}
+.header .nav-right a{font-size: 16px;}
+.hero-section.aboutus-banner{height: 300px;}
+.banner-content h1{font-size: 36px;line-height: 40px;}
+.about-offerlane-property-section{padding: 100px 0px;height: 600px;}
+.about-offerlane-property-section .section-header{margin-top: 25px;}
+.section-title{font-size: 28px;margin-bottom: 10px;}
+.description p{font-size: 16px;line-height: 26px;}
+.description{margin-top: 0;}
+.about-offerlane-property-section .images-block{right: 23px;width: auto;}
+.about-offerlane-property-section .content-block:after{width: 200px;height: 350px;top: 25px;right: 0;}
+.our-value-section{padding-top: 0;padding-bottom: 0;}
+.about-offerlane-property-section .section-title span:after{left: 110px;top: 15px;}
+.section-title span:after{top: 17px;}
+.our-value-section .lead.w-75{width: 100%!important;}
+.our-value-section .lead{font-size: 16px;line-height: 26px;}
+.our-value-service-section.mt-md-5{    margin-top: 2rem!important;}
+.services-wrapper{min-height: 340px;text-align:center;}
+.services-wrapper .inner-content .icon-section{margin: 0 auto;
+display: block;    float: none;}
+.services-wrapper .inner-content .content-section{margin-top: 0;    padding-left: 0;    display: inline-block;     float: none;width: 100%; }
+.services-wrapper .inner-content .content-section h4{    font-size: 16px;}
+.services-wrapper .inner-content .content-section p{ line-height: 24px;font-size: 14px;}
+.services-wrapper .inner-content:before{    bottom: -15px;left: -30px;width: 70px;}
+.lets-buy-section.section{height: 404px;margin-bottom: 20px;margin-top: 0;}
+.lets-buy-section.section:before{left:0; width: 240px;top: 80px;height: 130px}
+.lets-buy-section.section .images-block{ width: 384px;left: 25px;}
+.lets-buy-section.section .content-block {margin-top: 5px;padding-left: 30px;}
+.lets-buy-section.section .content-block .section-title span:after{top: 51px;}
+.our-team-section{    padding-top: 30px;     padding-bottom: 80px;}
+.our-team-section:after{    width: 32.4vw;    height: 522px;}
+.lead{font-size: 16px;line-height: 26px;}
+.team-detail-section{margin-top: 38px;}
+.team-detail-section .content-block h4{font-size: 16px;}
+.team-detail-section .content-block span{font-size: 15px;}
+.team-detail-section .image-block ul.social-icons{    padding: 12px 8px;}
+ul.social-icons li a{font-size: 12px;}
+.team-detail-section .image-block a.view-btn{left: 27%;font-size: 16px;    padding: 6px 28px;}
+.team-detail-section .content-block {text-align: center;padding: 20px 14px;}
+.footer{padding-top: 30px;}
+.footer-logo.col-md-4{max-width: 22%;flex: 0 0 22%;}
+.links-right{    max-width: 78%;flex: 0 0 78%;}
+.footer .links-right ul{margin-top: 8px;}
+.copyright{font-size: 14px;}
+.header .nav-left ul li a:after{bottom: -30px;}
+}
+
+@media only screen and (max-width : 767px){
+
+}

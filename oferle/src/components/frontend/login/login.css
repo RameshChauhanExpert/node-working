@@ -1,0 +1,86 @@
+.card-wrapper {position: absolute;top: 50%;transform: translateY(-50%);width: 100%;text-align: center;left: 0;}
+.tagline {font-size: 30px;font-weight: 600;color: #4c5456;margin:30px 0 0;}
+
+form.form__wrapper {max-width: 528px;margin:70px auto 0;}
+form.form__wrapper .input-conrtol {width: 100%;}
+form.form__wrapper .input-conrtol label {font-size: 22px;}
+form.form__wrapper .input-conrtol label.MuiFormLabel-root-12.MuiFormLabel-focused-13{color:rgba(0, 0, 0, 0.54)}
+form.form__wrapper .input-conrtol input {font-size: 22px;padding: 0px;height: 46px;}
+
+form.form__wrapper .link-text {float: right;font-size: 18px;padding: 18px 0px;color: #000000;text-transform: none; width:100%;text-align: right;}
+form.form__wrapper .link-text a{color: #000;}
+form.form__wrapper .btn-large {border-radius: 4px;background-color: rgb(32, 218, 203);box-shadow: none;width: 320px;height: 57px;border: 0;font-size: 20px; display: inline-block; margin-top:50px;}
+
+.card-wrapper .info-link {
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+}
+.card-wrapper .info-link a{color: #20dacb;}
+
+.figure-part {padding-right: 0;max-height:100vh; min-height: 100vh; background-color:#f5f5f5}
+.figure-part img {width: 100%;height: 100%;object-fit: cover;}
+
+
+
+form.form__wrapper .input-conrtol .MuiInput-underline-23:after{border-color:#20dacb}
+form.form__wrapper .form-fields {float: left;width: 100%;display: flex;justify-content: space-between;flex-wrap: wrap;}
+form.form__wrapper .form-fields .form-field {flex: 0 0 46%;max-width: 46%;}
+form.form__wrapper .btn-large:hover {color: #fff;box-shadow: 0px 9px 10px rgba(0,0,0,0.1);}
+
+button{cursor: pointer;}
+
+.login_form label[class*="MuiFormLabel-focused"]{color: #00d1bf !important; text-transform: uppercase !important;}
+.MuiInput-underline-325:hover:not(.MuiInput-disabled-324):not(.MuiInput-focused-323):not(.MuiInput-error-326):before {border-bottom: 2px solid rgb(32, 218, 203) !important;}
+.login_form [class*="MuiInputBase-focused"]:hover:before{border-color:#00d1bf !important;}
+.login_form [class*="MuiInput-underline-"]:after{border-bottom: 2px solid #20dacb !important;}
+.MuiInput-underline-325:after{border-bottom: 2px solid #20dacb !important;}
+.login_form [class*="MuiInput-underline"]:after {border-bottom: 2px solid #20dacb !important;}
+.login_form [class*="MuiInput-underline"]:hover:before{border-bottom: 2px solid #20dacb !important;}
+.login_form input{height: 33px;}
+.login_form [class*="MuiSelect-select"] {line-height: 33px;height: 33px;padding: 0;}
+.login_form input{height: 33px;}
+.login_form [class*="MuiFormLabel-filled"]{text-transform: uppercase !important;color: #00d1bf !important;}
+.card-wrapper .info-link a.sign_up {
+    text-align: center;
+    display: inline-block;
+    margin-left: 5px;
+}
+form.form__wrapper .input-conrtol label {
+    font-size: 18px;
+}
+@media screen and (min-width:1500px){
+    .main-container .figure-part {max-width: 1000px;flex: 0 0 1000px;}
+    .main-container .form-part {max-width: calc(100% - 1000px);}
+}
+
+@media screen and (max-width:1500px){
+    form.form__wrapper{margin-top:20px;}
+    .tagline {font-size: 20px;}
+    .main-container .figure-part{min-height:900px;}
+}
+@media screen and (max-width: 1300px) and (min-width: 1200px){
+form.form__wrapper{max-width: 418px;}
+form.form__wrapper .input-conrtol label {
+    font-size: 18px;
+}
+}
+
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ 
+    @media {
+        .row.for_register_login{flex-wrap: inherit;}
+        }
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {	_::-webkit-full-page-media, _:future, :root , .row.for_register_login{flex-wrap: inherit;}	}
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+    .row.for_register_login{flex-wrap: inherit;}
+}}
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+
+    .row.for_register_login{flex-wrap: inherit;}
+}} 

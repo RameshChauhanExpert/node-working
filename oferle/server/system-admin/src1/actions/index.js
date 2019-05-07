@@ -1,0 +1,1 @@
+export {fetch_product} from "./product/product"

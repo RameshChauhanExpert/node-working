@@ -1,0 +1,172 @@
+.example-1 {
+    margin-top: 50px;
+  }
+  .slider-container {
+   position: relative;
+  }
+  
+  .slider-selected-scale {
+  }
+  .slider {
+    position: relative;
+    user-select:none;
+    margin-top: 10px;  
+  }
+  
+  .slider-scale {
+  }
+  
+  .slider-thumb {
+    position: absolute;
+    background-color:gray;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    top: -8px;
+    touch-action: none;
+  }
+  
+  .slider-thumb-min {
+    background-color:red;
+  }
+  
+  .slider-thumb-max {
+    background-color: blue;
+  }
+  
+  .slot {
+    text-align: center;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    background-color:none;
+  }
+  
+  .scale-mark {
+   position: absolute;
+   border: 0.5px solid lightgray;;
+   height: 10px;
+  }
+  
+  .slot-scale {
+    text-align: center;
+    display:inline-block;
+    width:20px;
+    height:20px;
+    color: lightgray;
+    user-select: none;
+    
+  }
+  
+  .slot >.slider-thumb {
+    top:3px
+  }
+  
+  .line {
+    position: absolute;
+    background-color: lightgray;
+    height:2px;
+    width: 20px;
+    top: 12px;
+  }
+  
+  .line-selected {
+    height: 4px;
+    background-color: #191919;
+  }
+
+form.from-wrapper {max-width: 528px;margin:70px auto 0;}
+form.from-wrapper .input-conrtol {width: 100%;}
+form.from-wrapper .input-conrtol label {font-size: 22px;}
+form.from-wrapper .input-conrtol label.MuiFormLabel-root-12.MuiFormLabel-focused-13{color:rgba(0, 0, 0, 0.54)}
+form.from-wrapper .input-conrtol input {font-size: 22px;padding: 0px;height: 46px;}
+
+form.from-wrapper .link-text {float: right;font-size: 18px;padding: 18px 0px;color: #000000;text-transform: none; width:100%;text-align: right;}
+form.from-wrapper .link-text a{color: #000;}
+form.from-wrapper .btn-large {border-radius: 4px;background-color: rgb(32, 218, 203);box-shadow: none;width: 320px;height: 57px;border: 0;font-size: 20px; display: inline-block; margin-top:50px;}
+
+.card-wrapper .info-link {
+    margin-top: 40px;
+    display: inline-block;
+    font-size: 20px;
+    color: #000;
+}
+.card-wrapper .info-link a{color: #20dacb;}
+
+
+
+form.from-wrapper .input-conrtol .MuiInput-underline-23:after{border-color:#20dacb}
+
+
+.register_form label[class*="MuiFormLabel-focused"]{color: #00d1bf !important; text-transform: uppercase !important;}
+.MuiInput-underline-325:hover:not(.MuiInput-disabled-324):not(.MuiInput-focused-323):not(.MuiInput-error-326):before {border-bottom: 2px solid rgb(32, 218, 203) !important;}
+.register_form [class*="MuiInputBase-focused"]:hover:before{border-color:#00d1bf !important;}
+.register_form [class*="MuiInput-underline-"]:after{border-bottom: 2px solid #20dacb !important;}
+.MuiInput-underline-325:after{border-bottom: 2px solid #20dacb !important;}
+.register_form [class*="MuiInput-underline"]:after {border-bottom: 2px solid #20dacb !important;}
+.register_form [class*="MuiInput-underline"]:hover:before{border-bottom: 2px solid #20dacb !important;}
+.register_form input{height: 33px;}
+.register_form [class*="MuiSelect-select"] {line-height: 33px;height: 33px;padding: 0;}
+.register_form input{height: 33px;}
+.register_form [class*="MuiFormLabel-filled"]{text-transform: uppercase !important;color: #00d1bf !important;}
+
+
+@media screen and (min-width:1500px){
+    .main-container .figure-part {max-width: 1000px;flex: 0 0 1000px;}
+    .main-container .form-part {max-width: calc(100% - 1000px);}
+   
+
+}
+
+@media screen and (max-width:1500px){
+    form.form__wrapper{margin-top:20px;}
+    .tagline {font-size: 20px;}
+    .main-container .figure-part{min-height:900px;}
+
+}
+
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0)
+{ 
+    /* @media {
+        .row.for_register_login.row{flex-wrap: inherit;}
+        } */
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {	_::-webkit-full-page-media, _:future, :root , .row.for_register_login{flex-wrap: inherit;}	}
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) {
+    .row.for_register_login{flex-wrap: inherit;}
+}}
+@media not all and (min-resolution:.001dpcm)
+{ @supports (-webkit-appearance:none) and (stroke-color:transparent) {
+
+    .row.for_register_login{flex-wrap: inherit;}
+}} 
+
+.register_signup .inline-element{width:100%}
+.register_signup .error-msg{color:red;float:left;}
+
+
+
+
+form.form__wrapper .input-conrtol label.MuiInputLabel-shrink-8 {
+    text-transform: uppercase;
+color: #00d1bf !important;
+}
+
+
+.sucess-msg h3 {
+  font-size: 26px;
+  color: #00afa2;
+}
+.sucess-msg .btn.btn-primary {
+  font-size: 20px;
+  padding: 12px 30px;
+  background-color: #00d1bf ;
+  color: #fff;
+  margin: 30px 0 0;
+}
+
+.sucess-msg p {
+  font-size: 20px;
+  margin-bottom: 0;
+}

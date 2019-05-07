@@ -1,0 +1,47 @@
+
+.sidebar-nav .nav_button{
+    width: auto;
+    margin: 10px 15px 20px;
+ 
+    padding: 10px 15px;
+    position: relative;
+    transition: all 300ms linear;
+    font-weight: 300;
+    line-height: 1.5em;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 3px;
+    background-color: transparent; 
+}
+.sidebar-nav .nav_button.expand_more{margin-bottom:0px;}
+
+.sidebar-nav .nav_button:hover{outline: none;
+    box-shadow: none;
+    background-color: rgba(200, 200, 200, 0.2);}
+.sidebar-nav div * {color: #fff;}
+
+.sidebar-nav .nav_button a:hover{text-decoration: none}
+.sidebar-nav .nav-text {
+    padding: 0;
+}
+
+.sidebar-nav .nav-text span {
+    font-size: 15px;
+}
+.sidebar-nav .sub-menu {
+    padding-left: 40px;
+}
+
+.sidebar-nav .nav_button a, .sidebar-nav .sub-menu a {
+    /* width: 100%; */
+    display: flex;
+}
+
+.card-header{  background: linear-gradient(60deg, #08b5a7, #00d6c3) !important;
+    box-shadow: 0 12px 20px -10px rgb(230, 230, 230), 0 4px 20px 0px rgba(0, 0, 0, 0.12), 0 7px 8px -5px rgba(156, 39, 176, 0.2) !important;}
+
+    @media screen and (max-width: 1300px) and (min-width: 1200px){
+        .sidebar .steps-wrapper{height: calc(100vh - 140px);overflow: auto;}
+        ul.side-nav li{    padding: 20px 20px;}
+    }
+    

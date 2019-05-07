@@ -1,0 +1,141 @@
+.hero-section.how_it_work_banner{background:url(../../../assets/img/how-it-work-banner-img.png) no-repeat;background-size: cover;height: 477px;text-align:center; position: relative;}
+.how_it_work_banner .banner-content h1{width: max-content;margin: 0 auto 15px;}
+.how_it_work_banner .banner-content  p {font-size: 20px;color: #fff;line-height: 72px;margin-bottom: 5px;}
+.how_it_work_banner .banner-content .btn-lg {    min-height: 51px;padding:11px 44px 8px 22px;position: relative;font-weight: 400;font-size: 20px;transition: 0.4s all ease-in-out;}
+.how_it_work_banner .banner-content .btn-lg:hover{color: #000;}
+.how_it_work_banner .banner-content .btn-lg:after{position: absolute;content:'';    right: 22px;top: 18px;width: 0;height: 0;transition: 0.4s all ease-in-out;border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 9px solid #fff;}
+.how_it_work_banner .banner-content .btn-lg:hover:after{border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-left: 9px solid #000;}
+.btn-primary:not(:disabled):not(.disabled):active:focus{box-shadow: none;}
+.btn-primary.focus, .btn-primary:focus{box-shadow: none;}
+.btn-primary:not(:disabled):not(.disabled):active{    background-color: #20dacb;border-color: #20dacb;}
+.offerlane_work_section.section {padding:169px 0px 270px;}
+.offerlane_work_section p.w-75{width:65%!important;}
+.offerlane_work_section .section-title{margin-bottom: 35px;}
+.offerlane_work_process {
+    margin-top:8px;
+    float: left;
+}
+.process_steps_wrapper {
+    float: left;
+    width: 100%;
+}
+.process_info_content-section {
+    float: left;
+    width: 50%;
+    position: relative;
+    padding-top: 75px;
+}
+.process_info_content-section span.process-num{font-size: 20px;font-weight: 500;color: #14a297;background-color: #afefeb;border-radius:2px;padding: 6px 10px;}
+.process_info_content-section h2 {
+    color: #002856;
+    font-size: 25px;
+    line-height: 23px;
+    text-transform: uppercase;
+    margin: 35px 0px 20px;
+}
+.process_info_content-section h2 span{color: #20dacb;}
+.process_info_content-section p {
+    font-size: 18px;
+    color: #34475c;
+    line-height: 30px;
+    width: 60%;
+}
+.process_info_content-section:before{position: absolute;content:'';top:0;left:-170px;background:url(../../../assets/img/offerlane-work-process-bg-img.png) no-repeat;width:416px;height: 377px;z-index: -1;}
+.process_info_image-section {
+    float: right;
+    width: 50%;
+    text-align: right;
+}  
+.side-line {
+    display: inline-block;
+    border-top: 2px dashed #b0b0b0;
+    width: 25%; 
+}
+
+.triangle {
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    border-top: 2px solid #b0b0b0;
+    border-left: 2px solid #b0b0b0;
+    margin-left: 0;
+    margin-right: -13px;
+    margin-bottom: -5.4px;
+}
+.reverse_section .line-separator {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: -30px;
+    padding-right: 50px;
+}
+.line-separator {
+    float: left;
+    width: 100%;
+    text-align: center;}
+.reverse_section .process_info_image-section {
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.reverse_section .process_info_content-section{float: right;
+    width: 50%;
+    position: relative;
+    padding-top: 75px;
+    text-align: right;}
+    .reverse_section  .process_info_content-section p{
+            margin-left: auto;
+    }
+    .reverse_section .process_info_content-section:before{right:-170px;left: auto;}
+    .reverse_section .process-step-section {
+        float: left;
+        width: 100%;
+        text-align: center;
+        transform: rotate(232deg);
+        margin-bottom: 0;
+        padding-left: 40px;
+        padding-top: 0;
+        margin-top: 100px;
+        margin-left: -40px;
+        }
+        .reverse_section .process-step-section .side-line{width: 34%;}
+    .process-step-section {
+        float: left;
+        width: 100%;
+        text-align: center;
+        transform: rotate(-35deg);
+        margin-top: 100px;
+    }
+    .reverse_section .process-title{float: left;
+        width: 100%;
+        text-align: center;transform: rotate(180deg);margin-left: -20px;}
+        .process-title span.img-icon img{transform: rotate(-45deg);}
+        .process-title span.img-icon{margin-right: 10px;}
+        .process-title{float: left;
+            width: 100%;
+            text-align:center;}
+.process_steps_wrapper{padding-top: 100px;}
+.process-step-section.multi-offer {
+    margin-top: 150px;
+    margin-left: 70px;
+    transform: rotate(-50deg);
+}
+.process-step-section.multi-offer .side-line{width:32%;}
+.process-step-section.multi-offer .process-title span.img-icon img{ transform: rotate(-140deg);}
+
+.reverse_section .process-step-section.review-offer{transform: rotate(227deg);padding: 0px;
+    margin-top: 150px;
+    margin-left: -70px;}
+    .process-step-section.review-offer .side-line{width:30%;}
+    .process-step-section span{    font-size: 18px;
+        color: #002856;
+        line-height: 52px;}
+        .lead{font-weight: 400;}

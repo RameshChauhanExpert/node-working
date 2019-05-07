@@ -1,0 +1,37 @@
+.formField{
+    padding: 10px 15px;
+    /* border-radius: 6px; */
+    border-color: rgb(180, 180, 182);
+    border-width: thin;
+}
+
+.formField:hover{
+    border-color: rgb(12, 13, 20);
+}
+
+/* .formField:focus{
+    border-color: rgb(173, 3, 46);
+} */
+
+.existingFile{
+    margin-top: -55px;
+    float: right;
+    border-radius: 30px;
+}
+
+.card{
+    text-align: center;
+    /* padding-top: 13px; */
+    margin-bottom: 15px;
+    margin-top: -40px;
+}
+
+.card h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+h4{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
